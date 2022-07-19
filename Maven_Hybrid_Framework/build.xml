@@ -1,0 +1,72 @@
+<project name="Maven Hybrid Framework" default="runTestcases">
+	  <echo> 
+	  </echo>
+	  <echo>**************************************************************************</echo>
+	  <echo>*                      Developed By QA Team                       		 *</echo>
+	  <echo>*------------------------------------------------------------------------*</echo>
+	  <echo>*    Project                   Created On                      Author    *</echo>
+	  <echo>* -------------              ---------------                ------------ *</echo>
+	  <echo>*   Maven Hybrid Framework     xx-xx-xxxx                    Anil Yadav  *</echo>
+	  <echo>**************************************************************************</echo>
+	  <echo> 
+	  </echo>
+ <target name="Initialize">
+ <tstamp>
+  <format property="TODAY_IND" pattern="dd-MMMM-yyyy" locale="en" /> 
+  </tstamp>
+  <echo>Setting the src file properties...
+..</echo> 
+ 	<property name="src" value="./src" />
+  <echo>Setting the lib file properties...
+..</echo>
+ 	<property name="lib" value="./lib" />
+  <echo>Setting the bin file properties...
+..</echo>
+ 	<property name="bin" value="./bin" />
+ 	<path id="test.classpath">
+ 			<pathelement location="${bin}" />
+ 			<fileset dir="${lib}">
+ 				<include name="**/*.jar" />
+ 			</fileset>
+ 		</path>
+  </target>
+ <target name="compile" depends="Initialize">
+ <echo>compilation started...
+..</echo>
+ 	<javac includeantruntime="false" srcdir="${src}" fork="true" destdir="${bin}" >
+ 				<classpath>
+ 					<pathelement path="${bin}">
+ 					</pathelement>
+ 					<fileset dir="${lib}">
+ 						<include name="**/*.jar" />
+ 					</fileset>
+ 				</classpath>
+ 			</javac>
+  </target>
+<target name="runTestcases" depends="compile">
+ <echo>Execution started...
+..</echo>
+ 	<taskdef name="testng" classpath="${basedir}/lib/testng-6.8.5.jar" classname="com.beust.testng.TestNGAntTask" />
+ 	 <testng>
+ 	<classpath>
+ 					<pathelement location="${bin}" />
+ 					<fileset dir="${lib}">
+ 						<include name="**/*.jar" />
+ 					</fileset>
+ 				</classpath>
+  <classfileset dir="${bin}" includes="**/Hybrid_Framework.class" /> 
+ 	 	</testng>
+  </target>
+<!--	<target name="jar" depends="compile">
+	        <mkdir dir="build/jar"/>
+	        <jar destfile="build/jar/HelloWorld.jar" basedir="${bin}">
+	            <manifest>
+	                <attribute name="Main-Class" value="Test_Scripts.Hybrid_Framework"/>
+	            </manifest>
+	        </jar>
+	    </target>
+
+	    <target name="run" depends="jar">
+	        <java jar="build/jar/HelloWorld.jar" fork="true"/>
+	    </target>-->
+ </project>

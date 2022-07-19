@@ -1,0 +1,58 @@
+19/07/2022 13:03:34 devpinoyLogger Executing the Test Scenario Login_IL
+19/07/2022 13:03:34 devpinoyLogger Executing the Test Case Login
+19/07/2022 13:03:34 devpinoyLogger Executing the openbrowser keyword
+19/07/2022 13:03:34 devpinoyLogger The google chrome browser is opening
+19/07/2022 13:03:37 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS01 is --- Pass
+19/07/2022 13:03:37 devpinoyLogger Executing the openurl Keyword
+19/07/2022 13:03:40 devpinoyLogger The URL http://www.google.com has been opened
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS02 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the windowmax Keyword
+19/07/2022 13:03:40 devpinoyLogger The window has been maximized
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS03 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the gettitle keyword
+19/07/2022 13:03:40 devpinoyLogger The title is Google
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS04 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the verifytitle keyword
+19/07/2022 13:03:40 devpinoyLogger The actual title is - Google
+19/07/2022 13:03:40 devpinoyLogger The expected title is - Google
+19/07/2022 13:03:40 devpinoyLogger The actual title Google is same as Google expected title
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS05 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the implicitwait Keyword
+19/07/2022 13:03:40 devpinoyLogger The 90 seconds has been added for the implicit wait
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS06 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the explicitwait Keyword
+19/07/2022 13:03:40 devpinoyLogger The 90 seconds has been added for the explicit wait
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS07 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the fluentwait Keyword
+19/07/2022 13:03:40 devpinoyLogger The 90 seconds has been added for the fluent wait
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS08 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the enterdata Keyword
+19/07/2022 13:03:40 devpinoyLogger The HFS has been entered in the input field of the element //input[@name="q"]
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS09 is --- Pass
+19/07/2022 13:03:40 devpinoyLogger Executing the Highlight Keyword
+19/07/2022 13:03:40 devpinoyLogger The element //input[@name="q"] has been highlighted
+19/07/2022 13:03:40 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS10 is --- Pass
+19/07/2022 13:03:41 devpinoyLogger Executing the unHighlight Keyword
+19/07/2022 13:03:41 devpinoyLogger The element //input[@name="q"] has been unHighlighted
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS11 is --- Pass
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS12
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS12 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS13
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS13 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS14
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS14 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS15
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS15 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS16
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS16 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS17
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS17 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS18
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS18 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS19
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS19 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS20
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS20 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger Skipping the Test Step TS21
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS21 is --- Skip
+19/07/2022 13:03:41 devpinoyLogger **************************** The Result Of Execution Of The Test Case Login is --- Pass

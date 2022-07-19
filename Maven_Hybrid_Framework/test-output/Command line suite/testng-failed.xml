@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="Test_Scripts.Hybrid_Framework">
+        <methods>
+          <include name="Keywords"/>
+          <include name="startTesting"/>
+          <include name="endScript"/>
+        </methods>
+      </class> <!-- Test_Scripts.Hybrid_Framework -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
