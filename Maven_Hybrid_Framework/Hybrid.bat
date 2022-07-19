@@ -12,7 +12,8 @@ echo 	*														 *
 echo 	******************************************************************************************************************
 @echo on
 cd C:\Automation_Testing\Maven_Hybrid_Framework
-START /W mvn clean install
+mvn clean install
+
 
 
 
