@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-19T07:33:34Z" name="Command line suite" finished-at="2022-07-19T07:33:41Z" duration-ms="7392">
+  <suite started-at="2022-07-19T11:48:28Z" name="Command line suite" finished-at="2022-07-19T11:48:34Z" duration-ms="5920">
     <groups>
     </groups>
-    <test started-at="2022-07-19T07:33:34Z" name="Command line test" finished-at="2022-07-19T07:33:41Z" duration-ms="7392">
+    <test started-at="2022-07-19T11:48:28Z" name="Command line test" finished-at="2022-07-19T11:48:34Z" duration-ms="5920">
       <class name="Test_Scripts.Hybrid_Framework">
-        <test-method is-config="true" signature="startTesting()[pri:0, instance:Test_Scripts.Hybrid_Framework@13c27452]" started-at="2022-07-19T07:33:33Z" name="startTesting" finished-at="2022-07-19T07:33:34Z" duration-ms="895" status="PASS">
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:Test_Scripts.Hybrid_Framework@13c27452]" started-at="2022-07-19T11:48:27Z" name="startTesting" finished-at="2022-07-19T11:48:28Z" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTesting -->
-        <test-method signature="Keywords()[pri:0, instance:Test_Scripts.Hybrid_Framework@13c27452]" started-at="2022-07-19T07:33:34Z" name="Keywords" finished-at="2022-07-19T07:33:41Z" duration-ms="7366" status="PASS">
+        <test-method signature="Keywords()[pri:0, instance:Test_Scripts.Hybrid_Framework@13c27452]" started-at="2022-07-19T11:48:28Z" name="Keywords" finished-at="2022-07-19T11:48:34Z" duration-ms="5904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Keywords -->
-        <test-method is-config="true" signature="endScript()[pri:0, instance:Test_Scripts.Hybrid_Framework@13c27452]" started-at="2022-07-19T07:33:41Z" name="endScript" finished-at="2022-07-19T07:33:42Z" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="endScript()[pri:0, instance:Test_Scripts.Hybrid_Framework@13c27452]" started-at="2022-07-19T11:48:34Z" name="endScript" finished-at="2022-07-19T11:48:34Z" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endScript -->
