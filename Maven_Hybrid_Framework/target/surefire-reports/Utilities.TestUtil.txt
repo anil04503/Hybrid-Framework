@@ -1,10 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: Utilities.TestUtil
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.436 sec <<< FAILURE!
-Keywords(Utilities.TestUtil)  Time elapsed: 6.025 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "Test_Scripts.Hybrid_Framework.testStatus" is null
-	at Test_Scripts.Hybrid_Framework.Keywords(Hybrid_Framework.java:407)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.63 sec <<< FAILURE!
+Keywords(Utilities.TestUtil)  Time elapsed: 5.416 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at Test_Scripts.Hybrid_Framework.Keywords(Hybrid_Framework.java:412)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

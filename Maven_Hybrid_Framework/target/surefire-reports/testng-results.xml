@@ -2,23 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-21T12:55:51Z" name="Utilities.TestUtil" finished-at="2022-07-21T12:55:57Z" duration-ms="6033">
+  <suite started-at="2022-07-21T13:33:07Z" name="Utilities.TestUtil" finished-at="2022-07-21T13:33:13Z" duration-ms="5427">
     <groups>
     </groups>
-    <test started-at="2022-07-21T12:55:51Z" name="Command line test" finished-at="2022-07-21T12:55:57Z" duration-ms="6033">
+    <test started-at="2022-07-21T13:33:07Z" name="Command line test" finished-at="2022-07-21T13:33:13Z" duration-ms="5427">
       <class name="Utilities.TestUtil">
-        <test-method is-config="true" signature="startTesting()[pri:0, instance:Utilities.TestUtil@276438c9]" started-at="2022-07-21T12:55:51Z" name="startTesting" finished-at="2022-07-21T12:55:51Z" duration-ms="584" status="PASS">
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:Utilities.TestUtil@276438c9]" started-at="2022-07-21T13:33:07Z" name="startTesting" finished-at="2022-07-21T13:33:07Z" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTesting -->
-        <test-method signature="Keywords()[pri:0, instance:Utilities.TestUtil@276438c9]" started-at="2022-07-21T12:55:51Z" name="Keywords" finished-at="2022-07-21T12:55:57Z" duration-ms="6007" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="Keywords()[pri:0, instance:Utilities.TestUtil@276438c9]" started-at="2022-07-21T13:33:07Z" name="Keywords" finished-at="2022-07-21T13:33:13Z" duration-ms="5409" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "String.startsWith(String)" because "Test_Scripts.Hybrid_Framework.testStatus" is null]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "Test_Scripts.Hybrid_Framework.testStatus" is null
-at Test_Scripts.Hybrid_Framework.Keywords(Hybrid_Framework.java:407)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at Test_Scripts.Hybrid_Framework.Keywords(Hybrid_Framework.java:412)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,11 +57,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Keywords -->
-        <test-method is-config="true" signature="endScript()[pri:0, instance:Utilities.TestUtil@276438c9]" started-at="2022-07-21T12:55:58Z" name="endScript" finished-at="2022-07-21T12:55:58Z" duration-ms="45" status="PASS">
+        <test-method is-config="true" signature="endScript()[pri:0, instance:Utilities.TestUtil@276438c9]" started-at="2022-07-21T13:33:13Z" name="endScript" finished-at="2022-07-21T13:33:13Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endScript -->

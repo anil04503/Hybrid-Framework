@@ -39,6 +39,7 @@ public class Hybrid_Framework {
 	public static String locatortype;
 	public static String proceedOnFail;
 	public static String testStatus;
+	public static String failStatus;
 	public static String data_column_name;
 	public static String decission_steps;
 	public static String os;
@@ -156,6 +157,7 @@ public class Hybrid_Framework {
 										}
 											if(result.startsWith(CONFIG.getProperty("result_fail")))
 											{
+												failStatus="Fail";
 												testStatus=result;
 												fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+currentTSID+"-"+timestamp+"-"+browsername+".jpeg";
 												TestUtil.takeScreenShot(System.getProperty(("user.dir"))+CONFIG.getProperty("screenshotpath")+fileName);
@@ -299,6 +301,7 @@ public class Hybrid_Framework {
 											}
 												if(result.startsWith(CONFIG.getProperty("result_fail")))
 												{
+													failStatus="Fail";
 													testStatus=result;
 													fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+currentTSID+"-"+timestamp+"-"+browsername+".jpeg";
 													TestUtil.takeScreenShot(System.getProperty(("user.dir"))+CONFIG.getProperty("screenshotpath")+fileName);
@@ -404,7 +407,7 @@ public class Hybrid_Framework {
 			
 	}
 		ReportUtil.endSuite();
-		if(testStatus.startsWith(CONFIG.getProperty("result_fail")))
+		if(failStatus=="Fail")
 		{
 			Assert.fail();
 		}

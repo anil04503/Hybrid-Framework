@@ -1,67 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="Utilities.TestUtil" time="6.025" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="Utilities.TestUtil" time="5.416" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Automation_Testing\Maven_Hybrid_Framework"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
+    <property name="JOB_NAME" value="Hybrid_Maven"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Automation_Testing\Maven_Hybrid_Framework"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Hybrid_Maven/6/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3048000c8ed75760"/>
+    <property name="POM_ARTIFACTID" value="Maven_Hybrid_Framework"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="POM_DISPLAYNAME" value="Maven_Hybrid_Framework"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="NODE_LABELS" value="built-in"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="ANT_HOME" value="C:\apache-ant-1.10.12"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="AI1003$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Hybrid_Maven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Hybrid_Maven/6/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="AI1003$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6\conf"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Hybrid_Maven/6/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Hybrid_Maven/6/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Hybrid_Maven/display/redirect"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="AI1003"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="Maven_Hybrid_Framework"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Hybrid_Maven-6"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3048000c8ed75760"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk-17.0.2/bin;C:\Program Files\Java\jdk-17.0.2/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17.0.2\bin;C:\apache-ant-1.10.12\bin;C:\apache-maven-3.8.6\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="ZES_ENABLE_SYSMAN" value="1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="java.class.path" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.8.6/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.8.6 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.13.2.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 55694"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-17.0.2/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17.0.2\bin;C:\apache-ant-1.10.12\bin;C:\apache-maven-3.8.6\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-17.0.2/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="NODE_HOME" value="C:\Program Files\nodejs"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.8.6"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
     <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="HUDSON_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.8.6/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Hybrid_Maven/6/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="C:\Automation_Testing\Maven_Hybrid_Framework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Hybrid_Maven/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.8.6"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.8.6\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17.0.2/bin;C:\Program Files\Java\jdk-17.0.2/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17.0.2\bin;C:\apache-ant-1.10.12\bin;C:\apache-maven-3.8.6\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="maven.conf" value="C:\apache-maven-3.8.6/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.8.6\lib\jansi-native"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BASE" value="C:\Program Files\Jenkins"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
     <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\ProgramData\Jenkins\.jenkins\workspace\Hybrid_Maven@tmp"/>
+    <property name="WORKSPACE" value="C:\ProgramData\Jenkins\.jenkins\workspace\Hybrid_Maven"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="maven3.interceptor.common" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
     <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="AI1003$"/>
-    <property name="java.class.path" value="C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.2"/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2022-01-18"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="Utilities.TestUtil" name="Keywords" time="6.025">
-    <failure message="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;Test_Scripts.Hybrid_Framework.testStatus&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.startsWith(String)&quot; because &quot;Test_Scripts.Hybrid_Framework.testStatus&quot; is null
-	at Test_Scripts.Hybrid_Framework.Keywords(Hybrid_Framework.java:407)
+  <testcase classname="Utilities.TestUtil" name="Keywords" time="5.416">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at Test_Scripts.Hybrid_Framework.Keywords(Hybrid_Framework.java:412)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,66 +176,66 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
     <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1b40d5f0
-21/07/2022 18:25:51 devpinoyLogger Executing the Test Scenario Login_IL
-21/07/2022 18:25:52 devpinoyLogger Executing the Test Case Login
-21/07/2022 18:25:52 devpinoyLogger Executing the openbrowser keyword
-21/07/2022 18:25:52 devpinoyLogger The google chrome browser is opening
-21/07/2022 18:25:54 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS01 is --- Pass
-21/07/2022 18:25:54 devpinoyLogger Executing the openurl Keyword
-21/07/2022 18:25:57 devpinoyLogger The URL http://www.google.com has been opened
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS02 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the windowmax Keyword
-21/07/2022 18:25:57 devpinoyLogger The window has been maximized
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS03 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the gettitle keyword
-21/07/2022 18:25:57 devpinoyLogger The title is Google
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS04 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the verifytitle keyword
-21/07/2022 18:25:57 devpinoyLogger The actual title is - Google
-21/07/2022 18:25:57 devpinoyLogger The expected title is - Googl
-21/07/2022 18:25:57 devpinoyLogger Error while verifying the title Googlexpected [Googl] but found [Google]
-21/07/2022 18:25:57 devpinoyLogger The actual title is - Google
-21/07/2022 18:25:57 devpinoyLogger The expected title is - Googl
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS05 is --- Fail - expected [Googl] but found [Google]
-21/07/2022 18:25:57 devpinoyLogger Executing the implicitwait Keyword
-21/07/2022 18:25:57 devpinoyLogger The 90 seconds has been added for the implicit wait
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS06 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the explicitwait Keyword
-21/07/2022 18:25:57 devpinoyLogger The 90 seconds has been added for the explicit wait
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS07 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the fluentwait Keyword
-21/07/2022 18:25:57 devpinoyLogger The 90 seconds has been added for the fluent wait
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS08 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the enterdata Keyword
-21/07/2022 18:25:57 devpinoyLogger The HFS has been entered in the input field of the element //input[@name=&quot;q&quot;]
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS09 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the Highlight Keyword
-21/07/2022 18:25:57 devpinoyLogger The element //input[@name=&quot;q&quot;] has been highlighted
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS10 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Executing the unHighlight Keyword
-21/07/2022 18:25:57 devpinoyLogger The element //input[@name=&quot;q&quot;] has been unHighlighted
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS11 is --- Pass
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS12
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS12 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS13
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS13 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS14
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS14 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS15
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS15 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS16
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS16 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS17
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS17 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS18
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS18 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS19
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS19 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS20
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS20 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger Skipping the Test Step TS21
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS21 is --- Skip
-21/07/2022 18:25:57 devpinoyLogger **************************** The Result Of Execution Of The Test Case Login is --- Fail - expected [Googl] but found [Google]
+21/07/2022 19:03:07 devpinoyLogger Executing the Test Scenario Login_IL
+21/07/2022 19:03:08 devpinoyLogger Executing the Test Case Login
+21/07/2022 19:03:08 devpinoyLogger Executing the openbrowser keyword
+21/07/2022 19:03:08 devpinoyLogger The google chrome browser is opening
+21/07/2022 19:03:10 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS01 is --- Pass
+21/07/2022 19:03:10 devpinoyLogger Executing the openurl Keyword
+21/07/2022 19:03:12 devpinoyLogger The URL http://www.google.com has been opened
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS02 is --- Pass
+21/07/2022 19:03:12 devpinoyLogger Executing the windowmax Keyword
+21/07/2022 19:03:12 devpinoyLogger The window has been maximized
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS03 is --- Pass
+21/07/2022 19:03:12 devpinoyLogger Executing the gettitle keyword
+21/07/2022 19:03:12 devpinoyLogger The title is Google
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS04 is --- Pass
+21/07/2022 19:03:12 devpinoyLogger Executing the verifytitle keyword
+21/07/2022 19:03:12 devpinoyLogger The actual title is - Google
+21/07/2022 19:03:12 devpinoyLogger The expected title is - Googl
+21/07/2022 19:03:12 devpinoyLogger Error while verifying the title Googlexpected [Googl] but found [Google]
+21/07/2022 19:03:12 devpinoyLogger The actual title is - Google
+21/07/2022 19:03:12 devpinoyLogger The expected title is - Googl
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS05 is --- Fail - expected [Googl] but found [Google]
+21/07/2022 19:03:12 devpinoyLogger Executing the implicitwait Keyword
+21/07/2022 19:03:12 devpinoyLogger The 90 seconds has been added for the implicit wait
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS06 is --- Pass
+21/07/2022 19:03:12 devpinoyLogger Executing the explicitwait Keyword
+21/07/2022 19:03:12 devpinoyLogger The 90 seconds has been added for the explicit wait
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS07 is --- Pass
+21/07/2022 19:03:12 devpinoyLogger Executing the fluentwait Keyword
+21/07/2022 19:03:12 devpinoyLogger The 90 seconds has been added for the fluent wait
+21/07/2022 19:03:12 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS08 is --- Pass
+21/07/2022 19:03:12 devpinoyLogger Executing the enterdata Keyword
+21/07/2022 19:03:13 devpinoyLogger The HFS has been entered in the input field of the element //input[@name=&quot;q&quot;]
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS09 is --- Pass
+21/07/2022 19:03:13 devpinoyLogger Executing the Highlight Keyword
+21/07/2022 19:03:13 devpinoyLogger The element //input[@name=&quot;q&quot;] has been highlighted
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS10 is --- Pass
+21/07/2022 19:03:13 devpinoyLogger Executing the unHighlight Keyword
+21/07/2022 19:03:13 devpinoyLogger The element //input[@name=&quot;q&quot;] has been unHighlighted
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS11 is --- Pass
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS12
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS12 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS13
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS13 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS14
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS14 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS15
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS15 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS16
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS16 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS17
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS17 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS18
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS18 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS19
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS19 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS20
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS20 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger Skipping the Test Step TS21
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Step TS21 is --- Skip
+21/07/2022 19:03:13 devpinoyLogger **************************** The Result Of Execution Of The Test Case Login is --- Fail - expected [Googl] but found [Google]
 </system-out>
     <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
@@ -165,13 +243,13 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49202
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63865
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 21, 2022 6:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 21, 2022 7:03:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 21, 2022 6:25:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2022 7:03:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 </system-err>
   </testcase>
