@@ -10,6 +10,7 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -403,6 +404,10 @@ public class Hybrid_Framework {
 			
 	}
 		ReportUtil.endSuite();
+		if(testStatus.startsWith(CONFIG.getProperty("result_fail")))
+		{
+			Assert.fail();
+		}
 	}
 	@AfterSuite
 	public static void endScript(){
