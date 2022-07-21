@@ -3,11 +3,11 @@ package Test_Scripts;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -17,10 +17,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -64,10 +64,16 @@ public class Keywords extends Hybrid_Framework{
 		if(data.equalsIgnoreCase("ie"))
 		{
 			APPLICATION_LOGS.debug("The internet explorer browser is opening");
-			DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-	        caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
+			//DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+	        //caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+CONFIG.getProperty("iedriverpath"));
 			dr= new InternetExplorerDriver();
+		}
+		if(data.equalsIgnoreCase("edge"))
+		{
+			APPLICATION_LOGS.debug("The edge browser is opening");
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+CONFIG.getProperty("edgedriverpath"));
+			dr= new EdgeDriver();
 		}
 		if(data.equalsIgnoreCase("chrome"))
 		{
@@ -132,7 +138,8 @@ public class Keywords extends Hybrid_Framework{
 	String data =testscenariosheet.getCellData(testcase, data_column_name , testrepeat);
 	try{
 			int tm=Integer.parseInt(data);
-			dr.manage().timeouts().implicitlyWait(tm, TimeUnit.SECONDS);
+			//dr.manage().timeouts().implicitlyWait(tm, TimeUnit.SECONDS);
+			dr.manage().timeouts().implicitlyWait(Duration.ofSeconds(tm));
 			APPLICATION_LOGS.debug("The " +data+ " seconds has been added for the implicit wait");
 		}catch(Throwable t){
 			APPLICATION_LOGS.debug("Error while implicitly waiting the window "+ t.getMessage());
@@ -146,7 +153,8 @@ public class Keywords extends Hybrid_Framework{
 	String data =testscenariosheet.getCellData(testcase, data_column_name , testrepeat);
 	try{
 			int tm=Integer.parseInt(data);
-			wait = new WebDriverWait(dr,tm);
+			//wait = new WebDriverWait(dr,tm);
+			wait = new WebDriverWait(dr,Duration.ofSeconds(tm));
 			APPLICATION_LOGS.debug("The " +data+ " seconds has been added for the explicit wait");
 		}catch(Throwable t){
 			APPLICATION_LOGS.debug("Error while getting the explicit wait time "+ t.getMessage());
@@ -160,7 +168,7 @@ public class Keywords extends Hybrid_Framework{
 	String data =testscenariosheet.getCellData(testcase, data_column_name , testrepeat);
 	try{
 			int tm=Integer.parseInt(data);
-			waits = new FluentWait<WebDriver>(dr).withTimeout(tm, TimeUnit.SECONDS).pollingEvery(2, TimeUnit.SECONDS).ignoring(NoSuchElementException.class);
+			waits = new FluentWait<WebDriver>(dr).withTimeout(Duration.ofSeconds(tm)).pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
 			APPLICATION_LOGS.debug("The " +data+ " seconds has been added for the fluent wait");
 		}catch(Throwable t){
 			APPLICATION_LOGS.debug("Error while getting the fluent wait time "+ t.getMessage());
@@ -483,7 +491,7 @@ public class Keywords extends Hybrid_Framework{
 	try{
 		if(data.equalsIgnoreCase(CONFIG.getProperty("browserclose_yes")))
 		{
-			dr.quit();
+			dr.close();
 			APPLICATION_LOGS.debug("The browser has been closed");
 		}
 		else

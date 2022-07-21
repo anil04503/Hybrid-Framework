@@ -145,7 +145,7 @@ public class Hybrid_Framework {
 										{
 											if(screenshotmode.equalsIgnoreCase(CONFIG.getProperty("screenshotmode_on")))
 										{
-										fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+timestamp+".jpeg";
+										fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+currentTSID+"-"+timestamp+"-"+browsername+".jpeg";
 										TestUtil.takeScreenShot(System.getProperty(("user.dir"))+CONFIG.getProperty("screenshotpath")+fileName);
 										}
 											else
@@ -156,7 +156,7 @@ public class Hybrid_Framework {
 											if(result.startsWith(CONFIG.getProperty("result_fail")))
 											{
 												testStatus=result;
-												fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+timestamp+".jpeg";
+												fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+currentTSID+"-"+timestamp+"-"+browsername+".jpeg";
 												TestUtil.takeScreenShot(System.getProperty(("user.dir"))+CONFIG.getProperty("screenshotpath")+fileName);
 												if(proceedOnFail.equalsIgnoreCase(CONFIG.getProperty("proceedonfail_no"))){
 													ReportUtil.addKeyword(currentTSID, usecase, MAflow, stepDescription, keyword, result, fileName);
@@ -288,7 +288,7 @@ public class Hybrid_Framework {
 											{
 												if(screenshotmode.equalsIgnoreCase(CONFIG.getProperty("screenshotmode_on")))
 											{
-											fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+timestamp+".jpeg";
+											fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+currentTSID+"-"+timestamp+"-"+browsername+".jpeg";
 											TestUtil.takeScreenShot(System.getProperty(("user.dir"))+CONFIG.getProperty("screenshotpath")+fileName);
 											}
 												else
@@ -299,7 +299,7 @@ public class Hybrid_Framework {
 												if(result.startsWith(CONFIG.getProperty("result_fail")))
 												{
 													testStatus=result;
-													fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+timestamp+".jpeg";
+													fileName=CONFIG.getProperty("project")+"-"+testscenario+"-"+testcase+"-"+currentTSID+"-"+timestamp+"-"+browsername+".jpeg";
 													TestUtil.takeScreenShot(System.getProperty(("user.dir"))+CONFIG.getProperty("screenshotpath")+fileName);
 													if(proceedOnFail.equalsIgnoreCase(CONFIG.getProperty("proceedonfail_no"))){
 														ReportUtil.addKeyword(currentTSID, usecase, MAflow, stepDescription, keyword, result, fileName);

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-18T09:50:09Z" name="Utilities.TestUtil" finished-at="2022-07-18T09:50:15Z" duration-ms="5940">
+  <suite started-at="2022-07-20T10:11:03Z" name="Utilities.TestUtil" finished-at="2022-07-20T10:11:09Z" duration-ms="5566">
     <groups>
     </groups>
-    <test started-at="2022-07-18T09:50:09Z" name="Command line test" finished-at="2022-07-18T09:50:15Z" duration-ms="5940">
+    <test started-at="2022-07-20T10:11:03Z" name="Command line test" finished-at="2022-07-20T10:11:09Z" duration-ms="5566">
       <class name="Utilities.TestUtil">
-        <test-method is-config="true" signature="startTesting()[pri:0, instance:Utilities.TestUtil@491666ad]" started-at="2022-07-18T09:50:08Z" name="startTesting" finished-at="2022-07-18T09:50:09Z" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:Utilities.TestUtil@35a50a4c]" started-at="2022-07-20T10:11:02Z" name="startTesting" finished-at="2022-07-20T10:11:03Z" duration-ms="719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTesting -->
-        <test-method signature="Keywords()[pri:0, instance:Utilities.TestUtil@491666ad]" started-at="2022-07-18T09:50:09Z" name="Keywords" finished-at="2022-07-18T09:50:15Z" duration-ms="5912" status="PASS">
+        <test-method signature="Keywords()[pri:0, instance:Utilities.TestUtil@35a50a4c]" started-at="2022-07-20T10:11:03Z" name="Keywords" finished-at="2022-07-20T10:11:09Z" duration-ms="5550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Keywords -->
-        <test-method is-config="true" signature="endScript()[pri:0, instance:Utilities.TestUtil@491666ad]" started-at="2022-07-18T09:50:15Z" name="endScript" finished-at="2022-07-18T09:50:15Z" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="endScript()[pri:0, instance:Utilities.TestUtil@35a50a4c]" started-at="2022-07-20T10:11:09Z" name="endScript" finished-at="2022-07-20T10:11:09Z" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endScript -->

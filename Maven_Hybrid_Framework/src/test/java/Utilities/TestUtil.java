@@ -11,10 +11,10 @@ import java.util.Calendar;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 
@@ -35,13 +35,15 @@ public class TestUtil extends Hybrid_Framework{
 		os = System.getProperty("os.name").toLowerCase();
 		Capabilities cap=((RemoteWebDriver)dr).getCapabilities();
 		browsername=cap.getBrowserName();
-		browserversion=cap.getVersion();
+		//browserversion=cap.getVersion();
+		browserversion=cap.getBrowserVersion();
 	}
 	
 	public static void takeScreenShot(String filePath) {
 		File scrFile = ((TakesScreenshot)dr).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(scrFile, new File(filePath));
+			//FileUtils.copyFile(scrFile, new File(filePath));
+			FileHandler.copy(scrFile, new File(filePath));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
