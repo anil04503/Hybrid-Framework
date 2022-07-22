@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Utilities.TestUtil
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.63 sec <<< FAILURE!
-Keywords(Utilities.TestUtil)  Time elapsed: 5.416 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.758 sec <<< FAILURE!
+Keywords(Utilities.TestUtil)  Time elapsed: 5.524 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.fail(Assert.java:103)

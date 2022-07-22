@@ -11,8 +11,11 @@ echo 	*   	   Maven Hybrid Framwork      		  xx-xx-xxxx                      Ani
 echo 	*														 *
 echo 	******************************************************************************************************************
 @echo on
-cd C:\Automation_Testing\Maven_Hybrid_Framework
+D:
+cd D:\Automation_Testing\Maven_Hybrid_Framework
 mvn clean install
+
+
 
 
 
